@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/object-for-own",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Invoke a function for each own enumerable property of an object.",
   "license": "Apache-2.0",
   "author": {
