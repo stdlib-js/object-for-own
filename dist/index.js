@@ -1,5 +1,5 @@
-"use strict";var c=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var o=c(function(y,l){
-var f=require('@stdlib/utils-keys/dist'),m=require('@stdlib/assert-is-function/dist'),s=require('@stdlib/error-tools-fmtprodmsg/dist');function g(r,e,v){var a,i,u,n,t;if(typeof r!="object"||r===null)throw new TypeError(s('2pN3L',r));if(!m(e))throw new TypeError(s('2pN2H',e));for(a=f(r),u=a.length,t=0;t<u;t++)if(n=a[t],i=e.call(v,r[n],n,r),i===!1)return r;return r}l.exports=g
-});var p=o();module.exports=p;
+"use strict";var c=function(r,e){return function(){try{return e||r((e={exports:{}}).exports,e),e.exports}catch(a){throw (e=0, a)}};};var v=c(function(y,o){
+var f=require('@stdlib/utils-keys/dist'),m=require('@stdlib/assert-is-function/dist'),l=require('@stdlib/error-tools-fmtprodmsg/dist');function g(r,e,a){var n,u,s,i,t;if(typeof r!="object"||r===null)throw new TypeError(l('2pN3L',r));if(!m(e))throw new TypeError(l('2pN2H',e));for(n=f(r),s=n.length,t=0;t<s;t++)if(i=n[t],u=e.call(a,r[i],i,r),u===!1)return r;return r}o.exports=g
+});var p=v();module.exports=p;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
